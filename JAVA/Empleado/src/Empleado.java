@@ -1,9 +1,9 @@
 public class Empleado {
     private String nombre;
     private int sueldo;
-    private int fechaAlta;
+    private String fechaAlta;
 
-    public Empleado(int fechaAlta, String nombre, int sueldo) {
+    public Empleado(String fechaAlta, String nombre, int sueldo) {
         this.fechaAlta = fechaAlta;
         this.nombre = nombre;
         this.sueldo = sueldo;
@@ -12,11 +12,11 @@ public class Empleado {
     public Empleado() {
     }
 
-    public int getFechaAlta() {
+    public String getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaAlta(int fechaAlta) {
+    public void setFechaAlta(String fechaAlta) {
         this.fechaAlta = fechaAlta;
     }
 
@@ -34,5 +34,8 @@ public class Empleado {
 
     public void setSueldo(int sueldo) {
         this.sueldo = sueldo;
+    }
+    public String mostrarTodo(){
+        return "Nombre: " + nombre + ", Sueldo: " + sueldo + ", Fecha Alta: " + fechaAlta;
     }
 }
