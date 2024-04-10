@@ -24,5 +24,10 @@ public class Main {
         //Hacemos lo mismo con los asietos
         a1.setAsientosCuero(true);
         System.out.println(a1.isAsientosCuero());
+        //vamos a ingresar el método de peso_total
+        a1.setPeso_total(2500);
+        System.out.println("El peso total del auto es "+a1.getPeso_total()+" kg");
+
+
     }
 }
