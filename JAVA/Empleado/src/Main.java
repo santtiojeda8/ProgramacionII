@@ -14,6 +14,8 @@ public class Main {
         System.out.println(e1.mostrarTodo());
         System.out.println("Como su salario esta desactualizado vamos a aumentarselo un 10%");
         System.out.println("Su salario aumentado es de $"+e1.aumentarSalario());
+        Empleado e2 = new Empleado("27/07/2020","Santiago",200);
+        System.out.println(e2.mostrarTodo());
 
         // Estamos llamando al metodo MostrarTodo para mostrar todos los datos
         //System.out.println(e1.MostrarTodo());}
