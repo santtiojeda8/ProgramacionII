@@ -1,4 +1,4 @@
-public class Empleado {
+public class Empleado implements Comparable, Trabajador{
     private String nombre;
     private double sueldo;
     private String fechaAlta;
@@ -35,12 +35,34 @@ public class Empleado {
     public void setSueldo(double sueldo) {
         this.sueldo = sueldo;
     }
-    public String mostrarTodo(){
-        return "Nombre: " + nombre + ", Sueldo: " + sueldo + ", Fecha Alta: " + fechaAlta;
+
+    public String tipo(){
+        return "Empleado";
     }
+
     public double aumentarSalario(){
         double sala_aumentado= sueldo+(sueldo*0.10);
         return sala_aumentado;
+    }
+
+    public String mostrarTodo(){
+        return "Nombre: " + nombre + ", Sueldo: " + aumentarSalario() + ", Fecha Alta: " + fechaAlta+", Tipo: " + tipo();
+    }
+
+
+    public int compareTo(Object o) {
+        Empleado emp = (Empleado) o;
+        if (this.sueldo < emp.sueldo){
+            return -1;
+        }
+        if (this.sueldo > emp.sueldo){
+            return 1;
+        }
+        return 0;
+    }
+
+    public double estableceBonus(double bonus){
+        return bonusMin+bonus;
     }
 
     // Esta es una forma de poder mostrar todos los datos en un solo método
