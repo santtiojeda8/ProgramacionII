@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner read=new Scanner(System.in);
-        System.out.println("Hello world!");
-        Empleado e1 = new Empleado();
+        Empleado e1 = new Empleado("26/06/2021","Octavio",300);
+        e1.aumentarSalario();
+        /*
         System.out.println("Ingese su nombre");
         e1.setNombre(read.next());
         System.out.println("Ingese su sueldo");
@@ -14,11 +15,16 @@ public class Main {
         System.out.println(e1.mostrarTodo());
         System.out.println("Como su salario esta desactualizado vamos a aumentarselo un 10%");
         System.out.println("Su salario aumentado es de $"+e1.aumentarSalario());
+         */
         Empleado e2 = new Empleado("27/07/2020","Santiago",200);
+        e2.aumentarSalario();
+        System.out.println(e1.mostrarTodo());
         System.out.println(e2.mostrarTodo());
 
         // Estamos llamando al metodo MostrarTodo para mostrar todos los datos
         //System.out.println(e1.MostrarTodo());}
 
+        Jefe j1=new Jefe("25/05/2022","Pedro",400,100);
+        System.out.println(j1.mostrarTodo());
     }
 }

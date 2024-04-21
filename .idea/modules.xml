@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/JAVA/JAVA.iml" filepath="$PROJECT_DIR$/JAVA/JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Progra/Progra.iml" filepath="$PROJECT_DIR$/Progra/Progra.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ProgramacionII.iml" filepath="$PROJECT_DIR$/.idea/ProgramacionII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/heren/heren.iml" filepath="$PROJECT_DIR$/JAVA/heren/heren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Progra/tp4/tp4.iml" filepath="$PROJECT_DIR$/Progra/tp4/tp4.iml" />
     </modules>
   </component>
 </project>
