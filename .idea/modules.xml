@@ -8,8 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/Progra/Progra.iml" filepath="$PROJECT_DIR$/Progra/Progra.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ProgramacionII.iml" filepath="$PROJECT_DIR$/.idea/ProgramacionII.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA/heren/heren.iml" filepath="$PROJECT_DIR$/JAVA/heren/heren.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Progra/prueba1/prueba1.iml" filepath="$PROJECT_DIR$/Progra/prueba1/prueba1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Progra/tp4/tp4.iml" filepath="$PROJECT_DIR$/Progra/tp4/tp4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Progra/tp_8/tp_8.iml" filepath="$PROJECT_DIR$/Progra/tp_8/tp_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA/umlPrueba/umlPrueba.iml" filepath="$PROJECT_DIR$/JAVA/umlPrueba/umlPrueba.iml" />
     </modules>
   </component>
 </project>
