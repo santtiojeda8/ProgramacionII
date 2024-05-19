@@ -5,10 +5,10 @@ public class B extends A{
         this.setNombre(nombre);
     }
 
-    public B() {
+    public String superCocina(){
+        super.cocina();
+        return "Hoy cocina la "+ super.getNombre();
     }
 
-    public String sgNombre(){
-        return super.gNombre();
-    }
+
 }

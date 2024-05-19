@@ -9,7 +9,7 @@ public class Main {
         System.out.println(m1.superCocina());
         //Llamamos al método superSuperCocina desde la Hija
         System.out.println(h1.superSuperCocina());
-        //Llamamos al método de cocina Abuele desde Madre
+        //Llamamos al método de cocina Abuela desde Madre
         System.out.println(m1.cocina());
         //Llamamos al método de superCocina Madre  desde Hija
         System.out.println(h1.superCocina());

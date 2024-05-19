@@ -1,13 +1,12 @@
 public class C extends B {
 
-    public C() {
-    }
-
     public C(String nombre) {
-        this.setNombre(nombre);
+        super(nombre);
     }
 
-    public String ssgNombre(){
-        return super.sgNombre();
+    public String superSuperCocina(){
+        super.cocina();
+        return "Hoy cocina la "+super.getNombre();
     }
+
 }

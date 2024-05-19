@@ -8,6 +8,10 @@ public class A {
         this.nombre = nombre;
     }
 
+    public String cocina (){
+        return "Hoy cocina la "+nombre;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -15,10 +19,4 @@ public class A {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-    public String gNombre(){
-        return this.nombre;
-    }
-
-
 }
