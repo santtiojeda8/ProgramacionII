@@ -13,4 +13,9 @@ public class Helicoptero extends VehiculoAereo{
         super(alturaVuelo);
         this.cantPersonas = cantPersonas;
     }
+
+    public String mostrarTodo(){
+        return "Helicoptero "+ super.mostrarTodo() + " Embrague Manual: " + cantPersonas;
+    }
+
 }

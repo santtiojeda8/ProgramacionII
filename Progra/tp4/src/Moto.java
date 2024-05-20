@@ -13,4 +13,8 @@ public class Moto extends VehiculoTerrestre{
         super(cantRuedas);
         this.embragueManual = embragueManual;
     }
+
+    public String mostrarTodo(){
+        return "Moto: "+super.mostrarTodo() + " Embrague Manual: " + embragueManual ;
+    }
 }

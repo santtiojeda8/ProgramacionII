@@ -13,4 +13,8 @@ public class Avion extends VehiculoAereo{
         super(alturaVuelo);
         this.cantMotores = cantMotores;
     }
+
+    public String mostrarTodo(){
+        return "Avion: "+super.mostrarTodo() + " Cantidad de Motores: " + cantMotores ;
+    }
 }

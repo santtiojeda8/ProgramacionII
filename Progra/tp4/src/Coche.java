@@ -13,4 +13,8 @@ public class Coche  extends VehiculoTerrestre {
 
     public Coche() {
     }
+
+    public String mostrarTodo(){
+        return "Auto: "+super.mostrarTodo() + " CantPuertas: " + cantPuertas;
+    }
 }
